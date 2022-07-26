@@ -1,2 +1,5 @@
-# Bin-Packing-Algorithm
-Does what it says on the tin.
+# Bin-Packing-Algorithms
+2 Bin packing algorithms:
+
+First Fit
+First Fit Decreasing
