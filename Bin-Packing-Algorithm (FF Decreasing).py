@@ -6,10 +6,14 @@ for x in data:
         quit()
 ans = [0 for x in range(len(data))]
 waste = 0
+data.sort()
+data.reverse()
+print(data)
 for x in data:
     for y in range(len(ans)):
         if x + ans[y] <= bin_size:
             ans[y] += x
+            print(ans)
             break
 while 0 in ans:
     ans.remove(0)
